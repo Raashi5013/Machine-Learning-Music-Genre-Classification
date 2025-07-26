@@ -1,1 +1,6 @@
-# Machine-Learning-Music-Genre-Classification
+Machine-Learning-Music-Genre-Classification
+This project focuses on developing a machine learning classification system to distinguish between two popular music genres — Rock and Hip-Hop — using audio features extracted from a curated dataset of over 5,000 songs. The dataset consists of a CSV file with metadata and a JSON file containing musical attributes such as danceability, acousticness, tempo, and more, sourced from The Echo Nest. The objective is to preprocess this data, apply dimensionality reduction using Principal Component Analysis (PCA), and train classifiers that can accurately identify a song’s genre.
+
+Key stages in the project include data cleaning, feature correlation analysis, standardization using StandardScaler, and dimensionality reduction to highlight key patterns in the music data. Using Logistic Regression and Decision Tree models, we compare classification performance through metrics such as accuracy, precision, recall, and F1-score. The models are further validated using cross-validation techniques to reduce overfitting and improve generalizability.
+
+The project is implemented in Python, utilizing libraries like pandas and numpy for data handling, matplotlib and seaborn for visualizations, and scikit-learn for machine learning tasks. Final visualizations include PCA scatter plots and decision boundaries, offering insights into how well the features separate the two genres.
